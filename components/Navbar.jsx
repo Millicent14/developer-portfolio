@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className={style.navbar}>
       <ul>
         <Link href="/" passHref>
-          <li className={router.pathname == "/" ? `${style.active}` : ""} className={style.navbar_home}>
+          <li className={style.navbar_home}>
             <HiOutlineHome />
           </li>
         </Link>

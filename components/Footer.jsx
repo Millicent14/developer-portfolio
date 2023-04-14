@@ -34,7 +34,7 @@ const Footer = () => {
 
             <Dropdown.Divider/>
             <Link href="/resume.pdf" alt="alt text" target="_blank" rel="noopener noreferrer" passHref>
-              <Dropdown.Item className={router.pathname == "/resume.pdf"} className={style.footer_resume}>Resume</Dropdown.Item>
+              <Dropdown.Item className={style.footer_resume}>Resume</Dropdown.Item>
             </Link>
           </Dropdown.Menu>
         </Dropdown>

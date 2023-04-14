@@ -108,11 +108,11 @@ const About = () => {
         >
           <span className={style.ml_2}> /* </span>
           <span> let me = &#123; </span>
-          <span> name : "Millicent Hernandez", </span>
-          <span> code : ["HTML", "CSS", "JavaScript"], </span>
-          <span> web : "React", </span>
-          <span> database : "MongoDB", </span>
-          <span> web host : "Github" </span>
+          <span> name : &quot;Millicent Hernandez&quot;, </span>
+          <span> code : &#91;&quot;HTML&quot;, &quot;CSS&quot;, &quot;JavaScript&quot;&#93;, </span>
+          <span> web : &quot;React&quot;, </span>
+          <span> database : &quot;MongoDB&quot;, </span>
+          <span> web host : &quot;Github&quot; </span>
           <span> &#125; </span>
           <span className={style.ml_2}>*/</span>
         </motion.div>
