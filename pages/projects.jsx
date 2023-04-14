@@ -78,7 +78,7 @@ const Project = () => {
               },
             }}
             className={style.project_card_image}>
-            <a href="https://millicent14.github.io/webportfolio/"
+            <a href="https://developer-portfolio-teal.vercel.app/"
             target="_blank" rel="noopener noreferrer"> <PortfolioImg className={style.project_card_img}/>
             </a>
           </motion.div>                              
@@ -152,7 +152,7 @@ const Project = () => {
               },
             }}
             className={style.project_card_image}>
-            <a href="https://millicent14.github.io/webportfolio/"
+            <a href="https://capstone3-hernandez.vercel.app/"
             target="_blank" rel="noopener noreferrer"> <EcommerceImg className={style.project_card_img}/>
             </a>
           </motion.div>                              
