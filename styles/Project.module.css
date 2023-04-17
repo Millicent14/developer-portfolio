@@ -26,7 +26,7 @@
 .project_card_top {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   margin-top: 3rem;
 }
 .project_card_head {
@@ -55,6 +55,7 @@
 .project_card_bottom {
   margin-top: 1.5rem;
 }
+
 .project_card_bottom a {
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 0.5rem 1rem;
@@ -68,6 +69,16 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 0.5rem 1rem;
   border-radius: 6px;
+}
+
+.project_card_bottom_div {
+  text-align: center;
+}
+
+.project_card_bottom_span {
+  margin: 0.5rem;
+  padding: 0.1rem;
+  background-color: gray;
 }
 
 @media screen and (max-width: 530px) {

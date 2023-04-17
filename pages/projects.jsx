@@ -46,20 +46,22 @@ const Project = () => {
                   <p>Developer Portfolio</p>
                 </div>
                 <div>
-                  <span><a href=""> <FiGithub className={style.project_card_head_link}/> </a></span>                      
+                  <span>Check in Github<a href="https://github.com/Millicent14/developer-portfolio"> <FiGithub className={style.project_card_head_link}/> </a></span>                      
                 </div>
               </div>
               <div className={style.project_card_body}>
-                <p>designed using Next.js, React.js, Three.js, GraphQL and Framer Motion</p>
+                <p>developer portfolio based on some inspiration from the web</p>
               </div>
             </div>
-            {/*<div className={style.project_card_bottom}>
-              <div>
-                <a href="" rel="noreferrer" target="_blank">
-                  Check in Github
-                </a>
+            <div className={style.project_card_bottom}>
+              <div className={style.project_card_bottom_div}>
+                <span className={style.project_card_bottom_span}>Next.js</span>
+                <span className={style.project_card_bottom_span}>React.js</span>
+                <span className={style.project_card_bottom_span}>Three.js</span>
+                <span className={style.project_card_bottom_span}>GraphQL</span>
+                <span className={style.project_card_bottom_span}>Framer Motion</span>
               </div>
-            </div>*/}
+            </div>
           </motion.div>
           <motion.div 
             initial="hidden"
@@ -78,7 +80,7 @@ const Project = () => {
               },
             }}
             className={style.project_card_image}>
-            <a href="https://developer-portfolio-teal.vercel.app/"
+            <a href="https://developer-portfolio-millicentmhernandez.vercel.app/"
             target="_blank" rel="noopener noreferrer"> <PortfolioImg className={style.project_card_img}/>
             </a>
           </motion.div>                              
@@ -119,21 +121,24 @@ const Project = () => {
                 <div>
                   <p>E-Commerce API</p>
                 </div>
-                <div>
-                  <span><a href=""> <FiGithub className={style.project_card_head_link}/> </a></span>                      
-                </div>
+                {/*<div>
+                  <span>Check in Github<a href=""><FiGithub className={style.project_card_head_link}/> </a></span>                      
+                </div>*/}
               </div>
               <div className={style.project_card_body}>
                 <p>capstone project for Zuitt Coding Bootcamp. used my back-end API, which was also one of our capstone projects. still needs improvement</p>
               </div>
             </div>
-            {/*<div className={style.project_card_bottom}>
-              <div>
-                <a href="" rel="noreferrer" target="_blank">
-                  Reacts.js   Node.js   MongoDB   CSS   Bootstrap   MDB React
-                </a>
+            <div className={style.project_card_bottom}>
+              <div className={style.project_card_bottom_div}>
+                <span className={style.project_card_bottom_span}>MongoDB</span>
+                <span className={style.project_card_bottom_span}>Express.js</span>
+                <span className={style.project_card_bottom_span}>React.js</span>
+                <span className={style.project_card_bottom_span}>Node.js</span>
+                <span className={style.project_card_bottom_span}>CSS</span>
+                <span className={style.project_card_bottom_span}>Bootsrap</span>
               </div>
-            </div>*/}
+            </div>
           </motion.div>
           <motion.div 
             initial="hidden"

@@ -108,7 +108,7 @@ const About = () => {
         >
           <span className={style.ml_2}> /* </span>
           <span> let me = &#123; </span>
-          <span> name : &quot;Millicent Hernandez&quot;, </span>
+          <span> description : &quot;Career-shifter with experience in designing and creating user-friendly and responsive website and E-Commerce API.&quot;, </span>
           <span> code : &#91;&quot;HTML&quot;, &quot;CSS&quot;, &quot;JavaScript&quot;&#93;, </span>
           <span> web : &quot;React&quot;, </span>
           <span> database : &quot;MongoDB&quot;, </span>
@@ -132,7 +132,7 @@ const About = () => {
               opacity: 1,
               transition: {
                 type: "spring",
-                delay: 2,
+                delay: 1,
               },
             },
           }}
