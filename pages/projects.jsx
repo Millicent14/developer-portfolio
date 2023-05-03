@@ -43,7 +43,7 @@ const Project = () => {
             <div className={style.project_card_top}>
               <div className={style.project_card_head}>
                 <div>
-                  <p>Developer Portfolio</p>
+                  <p>Next Js Portfolio</p>
                 </div>
                 <div>
                   <span>Check in Github<a href="https://github.com/Millicent14/developer-portfolio"> <FiGithub className={style.project_card_head_link}/> </a></span>                      

@@ -10,7 +10,7 @@
 }
 .contact {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
   align-items: center;
 }
 
@@ -20,8 +20,9 @@
 
 .footer p {
   border-right: 1px solid rgba(139, 148, 158, 0.2);
-  font-size: 1.2rem;
-  padding: 5px 10px;
+  font-size: 1rem;
+  display: flex;
+  padding-right: 1rem;
 }
 .footer span {
   border-right: 1px solid rgba(139, 148, 158, 0.2);
